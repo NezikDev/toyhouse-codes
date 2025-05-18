@@ -128,7 +128,7 @@ Each text with bar is seperated, you just change the spans and width:x%
             <div><div class="d-flex">
                 <!--Two types to compare-->
                     <p class="w-50 m-1">Introverted</p>
-                    <p class="w-50 m-1 text-right">Introverted</p>
+                    <p class="w-50 m-1 text-right">Extroverted</p>
                 </div>
                 <div class="progress my-1" style="height:10px;">
                     <div class="progress-bar justify-content-end bg-transparent pl-3" role="progressbar" 

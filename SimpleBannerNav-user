@@ -199,7 +199,7 @@ Add connections/links to other characters!
             
             <div class="card p-4 m-2">
                <div class="row g-0">
-                    <div class="col-md-5" style="">
+                    <div class="col-md-5 pb-2 pb-md-0" style="">
     <!--Change image link here-->
                         <img src="CHAR_ICON_URL" 
                         class="img-fluid rounded-start w-100 mw-100 mh-100 h-100" style="object-position:center;object-fit:cover">
@@ -224,7 +224,7 @@ Add connections/links to other characters!
 
            <div class="card p-4 m-2">
                <div class="row g-0">
-                    <div class="col-md-5" style="">
+                    <div class="col-md-5 pb-2 pb-md-0" style="">
     <!--Change image link here-->
                         <img src="CHAR_ICON_URL" 
                         class="img-fluid rounded-start w-100 mw-100 mh-100 h-100" style="object-position:center;object-fit:cover">
@@ -248,7 +248,7 @@ Add connections/links to other characters!
 
            <div class="card p-4 m-2">
                <div class="row g-0">
-                    <div class="col-md-5" style="">
+                    <div class="col-md-5 pb-2 pb-md-0" style="">
     <!--Change image link here-->
                         <img src="CHAR_ICON_URL" 
                         class="img-fluid rounded-start w-100 mw-100 mh-100 h-100" style="object-position:center;object-fit:cover">

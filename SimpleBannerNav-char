@@ -1,0 +1,282 @@
+
+<!-- 
+F2U simple banner nav by Nezik (NezzyCode)
+Make sure to disable WYSIWYG
+There will be comments like this for what you can/should change!
+
+-->
+
+
+<div class="container-flex card mx-auto rounded-0 rounded" style="max-width:750px; border-radius:10px">
+<!-- Banner URL -->
+    <div class="row no-gutters w-100 m-0 p-0 bg-image" style="background-image:
+    
+        url('BANNER_URL');
+        
+        background-position:center;background-size:cover;border-radius:10px 10px 0 0">
+<!--
+The last number in rgba(...,0.45) is how dark the banner should be! You dont need to change this
+0 = Fully light, 1 = Fully Black-->
+         <div class="container w-100 h-auto p-0" style="background:linear-gradient(0deg,rgba(0,0,0,0.75),
+         
+         rgba(0,0,0,0.45)
+         
+         20%);border-radius:10px 10px 0 0;max-width: 100%; 
+         backdrop-filter: blur(2px)">
+<!-- Banner blur (above) -->
+             <div class="pl-3 pt-4 pb-4 pb-xs-0 m-sm-0 row no-gutters">
+                 <div class="m-auto m-sm-0" style="">
+                    <div style="height:150px">
+<!-- PFP image URL. Square (1x1 aspect ratio) image recommended -->
+                        <img src='ICON_URL' 
+                        
+                        class="rounded-circle h-100" style="object-position:center;object-fit:cover;aspect-ratio:1">
+                    </div>
+                 </div>
+                    <div class="col-xs-1 m-auto m-xs-0 m-sm-0" style="align-content:center">
+<!-- Name -->
+                    <h1 class="align-middle p-4 display-3" style="text-shadow: 0 0 20px black;align-content:center; color:rgb(255,255,255)">
+                    Name
+                    </h1>
+                    </div>
+             </div>
+             
+
+            <nav class="fixed-bottom">
+                <div class="nav nav-tabs justify-content-center justify-content-sm-start" id="nav-tab" role="tablist">
+<!-- Navigation tabs! 4 in total, separated (adding more than 4 tabs or using long names may break it)
+feel free to remove any one of them that you dont like, or you can rename them!-->
+                    <a class="nav-item nav-link active ml-xs-4 ml-sm-4" href="#Desc" data-toggle="tab" role="tab" aria-controls="Desc" aria-selected="true"><i class="fas fa-user pr-1">
+                    </i>Description</a>
+                    
+                    <a class="nav-item nav-link" href="#Person" data-toggle="tab" role="tab" aria-controls="Person" aria-selected="false"><i class="fas fa-comment pr-1">
+                    </i>Personality</a>
+                    
+                    <a class="nav-item nav-link" href="#Links" data-toggle="tab" role="tab" aria-controls="Links" aria-selected="false"><i class="fas fa-repeat pr-1">
+                    </i>Links</a>
+                    
+                </div>
+            </nav>
+            
+             </div>
+    </div>
+        <!-- content -->
+    <div class="row no-gutters w-100 align-items-center justify-content-between p-3 p-xs-4 p-sm-4">
+    <div class="tab-content" id="nav-tabContent" style="width:100%">
+        
+        <!-- Description tab -->
+        <div id="Desc" class="tab-pane fade  show active" role="tabpanel" aria-labelledby="Desc">
+<!-- Description content start
+
+    Some basic explanation for classes!
+    Colors:
+    text-primary =BLUE, text-secondary =GRAY, text-success =GREEN, text-danger =RED, text-warning =YELLOW, text-info =CYAN
+    Other:
+    font-italic , font-weight-bold
+    -->
+    <!-- Gray italics text, feel free to use it for anything -->
+            <p class="font-italic text-secondary">"You make me feel like I'm not good enough."</p>
+    <!-- Big red title -->
+            <h1 class="font-weight-bold text-danger">Title</h1>
+    <!-- Normal text -->
+            <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+    <!-- line break/space (br) -->
+            <br>
+             Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            </p>
+    <!-- img -->
+            <img src="ImageURL" class="p-2">
+    <!-- line -->
+            <hr>
+            <p>Points</p>
+    <!-- list -->
+            <ul>
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+            </ul>
+        </div>
+<!-- Home content end -->
+
+        <!--Personality tab-->
+ 
+        <div id="Person" class="tab-pane fade container" role="tabpanel" aria-labelledby="Person">
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <hr>
+            <div class="row">
+    <!-- Left list -->
+            <ul class="mb-sm-0 col-sm-6">
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+            </ul>
+    <!-- Right list -->
+            <ul class="mb-sm-0 col-sm-6">
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+            </ul>
+            </div>
+            <hr>
+            
+                <div style="max-width:350px">
+<!--MBTI / Progress Bars
+Each text with bar is seperated, you just change the spans and width:x% 
+-->
+                
+            <div><div class="d-flex">
+                <!--Two types to compare-->
+                    <p class="w-50 m-1">Introverted</p>
+                    <p class="w-50 m-1 text-right">Introverted</p>
+                </div>
+                <div class="progress my-1" style="height:10px;">
+                    <div class="progress-bar justify-content-end bg-transparent pl-3" role="progressbar" 
+                    style="width:0%">
+                <!--Change percentage above-->
+                        <i class="fa-solid fa-circle-xmark text-primary" style="margin-top:-6px;margin-right:-5px; position:absolute; font-size:2em"></i>
+                    </div>
+            </div></div>
+
+            <div><div class="d-flex">
+                <!--Two types to compare-->
+                    <p class="w-50 m-1">Sensing</p>
+                    <p class="w-50 m-1 text-right">Intuition</p>
+                </div>
+                <div class="progress my-1" style="height:10px;">
+                    <div class="progress-bar justify-content-end bg-transparent pl-3" role="progressbar" 
+                    style="width:25%">
+                <!--Change percentage above-->
+                        <i class="fa-solid fa-circle-xmark text-primary" style="margin-top:-6px;margin-right:-5px; position:absolute; font-size:2em"></i>
+                    </div>
+            </div></div>
+            
+            <div><div class="d-flex">
+                <!--Two types to compare-->
+                    <p class="w-50 m-1">Thinking</p>
+                    <p class="w-50 m-1 text-right">Feeling</p>
+                </div>
+                <div class="progress my-1" style="height:10px;">
+                    <div class="progress-bar justify-content-end bg-transparent pl-3" role="progressbar" 
+                    style="width:50%">
+                <!--Change percentage above-->
+                        <i class="fa-solid fa-circle-xmark text-primary" style="margin-top:-6px;margin-right:-5px; position:absolute; font-size:2em"></i>
+                    </div>
+            </div></div>
+
+            <div><div class="d-flex">
+                <!--Two types to compare-->
+                    <p class="w-50 m-1">Judging</p>
+                    <p class="w-50 m-1 text-right">Percieving</p>
+                </div>
+                <div class="progress my-1" style="height:10px;">
+                    <div class="progress-bar justify-content-end bg-transparent pl-3" role="progressbar" 
+                    style="width:100%">
+                <!--Change percentage above-->
+                        <i class="fa-solid fa-circle-xmark text-primary" style="margin-top:-6px;margin-right:-5px; position:absolute; font-size:2em"></i>
+                    </div>
+            </div></div>
+                
+<!--end MBTI / Progress Bars-->
+            </div>
+        </div>
+ 
+ <!-- Links tab -->
+        <div id="Links" class="tab-pane fade container w-100 mw-100" role="tabpanel" aria-labelledby="Links">
+            <div class="row no-gutters w-100">
+
+<!--CHARACTERS
+It is recommended to use images that aren't too wide or too tall
+Add connections/links to other characters!
+    Next to the name is also a little icon
+    In the code, thats under the name/title (h1)
+    the i class determines the icon!
+        HEART: "fa-solid fa-heart text-success"
+        NEUTRAL: "fa-solid fa-location-question text-secondary"
+        X/HATE: "fa-solid fa-square-x text-danger"
+-->
+            
+            
+            <div class="card p-4 m-2">
+               <div class="row g-0">
+                    <div class="col-md-5" style="">
+    <!--Change image link here-->
+                        <img src="CHAR_ICON_URL" 
+                        class="img-fluid rounded-start w-100 mw-100 mh-100 h-100" style="object-position:center;object-fit:cover">
+                    </div>
+                <div class="col-md-7">
+                    <div class="card-body">
+    <!--Info-->
+                        <h1 class="card-title">CHARACTER_NAME
+        <!--Icon-->
+                        <i class="fa-solid fa-heart text-success"></i></h1>
+                        <p class="card-text font-italic">CHARACTER_DESCRIPTION</p>
+                    </div>
+                </div>
+               </div>
+    <!--Link to your character-->
+               <a href="CHARACTER_LINK_HERE" class="stretched-link"></a>
+            </div>
+
+
+<!--Another one!-->
+                
+
+           <div class="card p-4 m-2">
+               <div class="row g-0">
+                    <div class="col-md-5" style="">
+    <!--Change image link here-->
+                        <img src="CHAR_ICON_URL" 
+                        class="img-fluid rounded-start w-100 mw-100 mh-100 h-100" style="object-position:center;object-fit:cover">
+                    </div>
+                <div class="col-md-7">
+                    <div class="card-body">
+    <!--Info-->
+                        <h1 class="card-title">CHARACTER_NAME
+        <!--Icon-->
+                        <i class="fa-solid fa-location-question text-secondary"></i></h1>
+                        <p class="card-text font-italic">CHARACTER_DESCRIPTION</p>
+                    </div>
+                </div>
+               </div>
+    <!--Link to your character-->
+               <a href="CHARACTER_LINK_HERE" class="stretched-link"></a>
+            </div>
+            
+<!--Another one!-->
+                
+
+           <div class="card p-4 m-2">
+               <div class="row g-0">
+                    <div class="col-md-5" style="">
+    <!--Change image link here-->
+                        <img src="CHAR_ICON_URL" 
+                        class="img-fluid rounded-start w-100 mw-100 mh-100 h-100" style="object-position:center;object-fit:cover">
+                    </div>
+                <div class="col-md-7">
+                    <div class="card-body">
+    <!--Info-->
+                        <h1 class="card-title">CHARACTER_NAME
+        <!--Icon-->
+                        <i class="fa-solid fa-square-x text-danger"></i></h1>
+                        <p class="card-text font-italic">CHARACTER_DESCRIPTION</p>
+                    </div>
+                </div>
+               </div>
+    <!--Link to your character-->
+               <a href="CHARACTER_LINK_HERE" class="stretched-link"></a>
+            </div>
+                
+
+
+<!--  You can put as many characters as you like above this line by just copying the whole div-->
+            </div>
+        </div>
+ 
+    <!-- end of links tab-->
+        </div>
+    </div>
+    <div class="p-1" style="position:absolute; top:0; right:0">
+    <a href="https://toyhou.se/33157604.f2u-simple-banner-nav"><i class="fa-solid fa-code" style="color:rgba(255,255,255,0.3)"></i></a> <!--watermark, do not remove-->
+    </div>
+</div>
